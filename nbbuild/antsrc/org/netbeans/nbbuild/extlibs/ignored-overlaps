@@ -70,6 +70,9 @@ extide/gradle/external/gradle-7.4-bin.zip enterprise/cloud.oracle/external/httpc
 extide/gradle/external/gradle-7.4-bin.zip platform/o.apache.commons.codec/external/commons-codec-1.15.jar
 extide/gradle/external/gradle-7.4-bin.zip platform/libs.batik.read/external/xml-apis-1.4.01.jar
 
+# cnd/libs.clank uses a zip file that is expanded at compile time into different jar files.
+cnd/libs.clank/external/clank_0.3.9.zip cnd/libs.clank/external/clank_0.3.9.zip
+
 # These are the endorsed version of the javaee apis and create libraries, so they are better kept separate
 enterprise/javaee.api/external/javax.annotation-api-1.2.jar enterprise/javaee7.api/external/javax.annotation-api-1.2.jar
 enterprise/javaee7.api/external/javax.annotation-api-1.2.jar java/maven.indexer/external/javax.annotation-api-1.2.jar
